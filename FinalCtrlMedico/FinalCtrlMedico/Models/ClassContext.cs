@@ -8,6 +8,10 @@ namespace FinalCtrlMedico.Models
 {
     public class ClassContext: DbContext
     {
+        public ClassContext()
+            : base("CadenaCtrlMedico")
+        { }
+
         public DbSet<ClassPaciente> Pacientes { get; set; }
         public DbSet<ClassMedico> Medicos { get; set; }
         public DbSet<ClassHabitaciones> Habitaciones { get; set; }

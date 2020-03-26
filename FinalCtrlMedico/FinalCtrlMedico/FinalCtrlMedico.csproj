@@ -137,8 +137,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ClassAltas.cs" />
     <Compile Include="Models\ClassCitas.cs" />
+    <Compile Include="Models\ClassContext.cs" />
     <Compile Include="Models\ClassHabitaciones.cs" />
     <Compile Include="Models\ClassIngresos.cs" />
     <Compile Include="Models\ClassMedico.cs" />
